@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Main{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEAD */
+
+@keyframes DropDown {
+    from{
+        transform: translateY(-200px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+
+
+.DropDown{
+    animation-name: DropDown;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+}
+
+.Header{
+    height: 9%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+}
+
+.Head-wrapper{
+    height: 100%;
+    width: 92%;
+    /* background-color: orange; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Part1{
+    height: 100%;
+    width: 44%;
+    /* background-color: silver; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.Logo{
+    height: 100%;
+    width: 26%;
+    /* background-color: black; */
+}
+
+.First{
+    height: 100%;
+    width: 72%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 23px;
+    font-weight: 550;
+   
+    a{
+        color: silver;
+        font-size: 15px;
+        text-decoration: none;
+        
+    }
+
+    a:hover{
+        color: rgb(90, 125, 240);
+        transition-duration: 350ms;
+        transition-delay: 150ms;
+    }
+}
+
+.Part2{
+    height: 100%;
+    width: 40%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Second{
+    height: 100%;
+    width: 55%;
+    /* background-color: chocolate; */
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    font-weight: 550;
+    
+    a{
+        color: silver;
+        font-size: 15px;
+        text-decoration: none;
+        
+    }
+
+    a:hover{
+        color: rgb(90, 125, 240);
+        transition-duration: 350ms;
+        transition-delay: 150ms;  
+    }
+}
+
+.Accont{
+    text-decoration: none;
+    color: white;
+}
+
+.But{
+    padding: 15px 16px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(59,183,94);
+}
+
+.But:hover{
+    transform: translateY(-1px);
+    background-color: rgb(9, 156, 9);
+    transition: all 400ms;
+}
+
+.Flag{
+    height: 100%;
+    width: 6%;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* HEAD ENDING */
+
+/*BODY*/
+
+@keyframes Bounce {
+    0%{
+        transform: translateY(0);
+    }
+
+    20%{
+        transform: translateY(-20px);
+    }
+
+    40%{
+        transform: translateY(0);
+    }
+
+    60%{
+        transform: translateY(-40px);
+    }
+
+    80%{
+        transform: translateY(0);
+    }
+
+    90%{
+        transform: translateY(-20px);
+    }
+    
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.Bounce{
+    animation-name: Bounce;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+}
+
+.Section{
+    height: 65%;
+    width: 100%;
+    background-color: silver;
+    padding-top: 4.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(1,27,51);
+    margin-bottom: 8%;
+    
+
+    h1{
+        font-size: 50px;
+        font-weight: bolder;
+        padding-bottom: 15px;
+    }
+
+    p{
+        font-size: 22px;
+        font-weight: 400;
+        text-align: center;
+    }
+}
+
+.Holder{
+    /* height: 100%; */
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Holder-wrapper{
+    width: 90%;
+    background-color: black;
+}
+
+.Column{
+    height: 50vh;
+    width: 100%;
+    background-color: black;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Row{
+    height: 100%;
+    width: 32%;
+    background-color: black;
+    border: 0.1px solid rgba(128, 128, 128, 0.261);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Row:hover{
+    box-shadow: rgba(197, 196, 196, 0.359) 1px 1px 1px 1px;
+    transition: all 400ms;
+}
+
+.Row-holder{
+    height: 80%;
+    width: 87%;
+    background-color: black;
+    color: silver   ;
+}
+
+.Dop{
+    font-size: 17px;
+    font-weight: 700;
+    padding-top: 70px;
+    color: silver;
+}
+
+h2{
+    font-weight: bolder;
+    padding-bottom: 70px;
+    color: silver;
+}
+
+/* BODY ENDING */
+
+/* FOOTER */
+
+.Footer{
+    height: 150%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid silver;
+    /* margin-top: 70px; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Footer-wrapper{
+    width: 90%;
+    height: 100%;
+    background-color: black;
+}
+
+.Start{
+    height: 35%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: silver;
+}
+
+.Okay{
+    width: 50%;
+}
+
+.Try{
+    font-size: 19px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.accept{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.End{
+    height: 55%;
+    width: 100%;
+    background-color: black;
+}
+
+.Daddy{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Mommy{
+    height: 70%;
+    width: 24%;
+    background-color: black;
+    color: silver;
+    display: flex;
+    flex-direction: column;
+}
+
+.Mommy>p{
+    font-size: 18px;
+    font-weight: 800;
+    padding-bottom: 30px;
+    color: silver;
+}
+
+.Dd{
+    margin-bottom: 40px;
+}
+
+.Dd>a{
+    text-decoration: none;
+    color: silver;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.Dd>a:hover{
+    color: blue;
+    font-weight: 600;
+    transition: all 400ms;
+}
+
+.For{
+    padding-bottom: 30px;
+}
+
+.DD{
+    padding-bottom: 10px;
+}
+
+.DD>a{
+    text-decoration: none;
+    color: blue;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.DD>a:hover{
+    color: rgb(3, 3, 180);
+}

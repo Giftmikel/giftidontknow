@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: silver;
+}
+
+@keyframes DropDown {
+    from{
+        transform: translateY(-200px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+
+.DropDown{
+    animation-name: DropDown;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+}
+
+.Header{
+    height: 9%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    color: silver;
+}
+
+.Head-wrapper{
+    height: 100%;
+    width: 92%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Part1{
+    height: 100%;
+    width: 44%;
+    /* background-color: silver; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.Logo{
+    height: 100%;
+    width: 26%;
+    /* background-color: black; */
+}
+
+.First{
+    height: 100%;
+    width: 72%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 23px;
+    font-weight: 550;
+   
+    a{
+        color: silver;
+        font-size: 15px;
+        text-decoration: none;
+        
+    }
+
+    a:hover{
+        color: rgb(90, 125, 240);
+        transition-duration: 350ms;
+        transition-delay: 150ms;
+    }
+}
+
+.Part2{
+    height: 100%;
+    width: 40%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Second{
+    height: 100%;
+    width: 55%;
+    /* background-color: chocolate; */
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    font-weight: 550;
+    
+    a{
+        color: silver;
+        font-size: 15px;
+        text-decoration: none;
+        
+    }
+
+    a:hover{
+        color: rgb(90, 125, 240);
+        transition-duration: 350ms;
+        transition-delay: 150ms;
+    }
+}
+
+.Accont{
+    text-decoration: none;
+    color: white;
+}
+
+.But{
+    padding: 15px 16px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(9, 156, 9);
+}
+
+.But:hover{
+    transform: translateY(-1px);
+    background-color: rgb(9, 156, 9);
+    transition: all 400ms;
+}
+
+.Flag{
+    height: 100%;
+    width: 6%;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Section{
+    width: 100%;
+    background-color: black;
+    height: 100%;
+    padding-top: 4.5%;
+    display: flex;
+    justify-content: center;
+}
+
+.Section-wrapper{
+    width: 92%;
+    background-color: black;
+}
+
+.section1{
+    height: 60vh;
+    width: 100%;
+    background-color: black;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section2{
+    height: 60vh;
+    width: 100%;
+    background-color: black;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section3{
+    height: 60vh;
+    width: 100%;
+    background-color: black;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.section4{
+    height: 60vh;
+    width: 100%;
+    background-color: black;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.One{
+    height: 100%;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h1{
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    p{
+        font-size: 20px;
+        padding-top: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+.Two{
+    height: 100%;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h1{
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    p{
+        font-size: 20px;
+        padding-top: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+.Footer{
+    height: 150%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid silver;
+    margin-top: 150px;
+}
+
+.Footer-wrapper{
+    width: 90%;
+    height: 100%;
+    background-color: black;
+}
+
+.Start{
+    height: 35%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Okay{
+    width: 50%;
+}
+
+.Try{
+    font-size: 19px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    color: silver;
+}
+
+.accept{
+    font-size: 45px;
+    font-weight: bold;
+    color: silver;
+}
+
+.End{
+    height: 55%;
+    width: 100%;
+    background-color: rgb(241,254,244);
+}
+
+.Daddy{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Mommy{
+    height: 70%;
+    width: 24%;
+    background-color: black ;
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    font-size: 18px;
+    font-weight: 800;
+    padding-bottom: 30px;
+    color: silver;
+}
+
+.Dd{
+    margin-bottom: 40px;
+    color: silver;
+}
+
+.Dd>a{
+    text-decoration: none;
+    color: silver   ;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.Dd>a:hover{
+    color: blue;
+    font-weight: 600;
+    transition: all 400ms;
+}
+
+.For{
+    padding-bottom: 30px;
+}
+
+.DD{
+    padding-bottom: 10px;
+}
+
+.DD>a{
+    text-decoration: none;
+    color: blue;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.DD>a:hover{
+    color: rgb(3, 3, 180);
+}

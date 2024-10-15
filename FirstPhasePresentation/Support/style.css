@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* BODY */
+
+
+/* MAIN */
+main {
+  width: 100%;
+  background-color: #0d2a45;
+  position: relative;
+}
+
+/* WRAPPER */
+/* .wrapper {
+  width: 85%;
+  background-color: red;
+} */
+
+/* HEADER */
+header {
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  /* position: relative; */
+  /* background-image: url(asset/Internet-Website-PNG-Photos.png); */
+}
+
+/* HEADER WRAP */
+.Head-wrap {
+  width: 85%;
+  height: 100%;
+  /* background-color: #ecf6fc; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* HEADER LOGO */
+.Head-wrap > img {
+  width: 150px;
+  padding-top: 20px;
+}
+
+/* NAVE */
+nav {
+  padding-bottom: 10px;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* END OF SECTION */
+
+/* HERO */
+.Hero {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  /* background-image: url(asset/Internet-Website-PNG-Photos.png); */
+  padding-top: 80px;
+  /* position: sticky;
+  top: -80px; */
+}
+
+/* HERO WRAP */
+.Hero-wrap {
+  width: 85%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #ecf6fc; */
+}
+.Submit {
+  color: white;
+  padding: 12px 10px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.Sign-in {
+  color: white;
+  padding: 12px 10px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* SEARCH BAR */
+.Searchbar {
+  width: 550px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50px;
+  margin-top: 15px;
+  border: rgb(227, 227, 227) 0.25px solid;
+  display: flex;
+  align-items: center;
+}
+.M-glass {
+  width: 25px;
+  margin-right: 15px;
+  margin-left: 15px;
+  /* margin-top: 3px; */
+}
+
+.Searchbar-Input {
+  height: 100%;
+  flex: 1;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+}
+.Searchbar-Input::placeholder {
+  font-size: 15px;
+}
+
+.Hero-wrap > p {
+  font-size: 25px;
+  width: 400px;
+  text-align: center;
+  font-weight: 600;
+  color: white;
+}
+
+/* HERO TWO */
+.Hero-two {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: #ecf6fc;
+}
+.Hero-two-wrap {
+  width: 85%;
+  height: 100%;
+  /* display: flex; */
+  background-color: #ecf6fc;
+}
+
+/* CARD HOLDER */
+.Card-Holder {
+  width: 100%;
+  height: 400px;
+  /* background-color: aqua; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* CARD */
+.Card {
+  width: 32%;
+  height: 150px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+  /* cursor: pointer; */
+}
+
+/* CARD WRAP */
+.Card-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 90%;
+  height: 50%;
+}
+
+/* CARD HOLDER TWO */
+.Card-Holder-two {
+  width: 100%;
+  height: 150px;
+}
+
+/* CARD TWO */
+.Card-two {
+  width: 100%;
+  height: 150px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+
+  align-items: center;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+}
+.Card-wrap > p {
+  cursor: pointer;
+}
+.Card-wrap > h1 {
+  cursor: pointer;
+}
+
+/* CARD TWO WRAP */
+.Card-two-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 90%;
+  height: 50%;
+  padding-left: 15px;
+}
+
+/* HOVER EFFECTS */
+.Card:hover {
+  border: silver 1px solid;
+}
+a > h1:hover {
+  color: blue;
+}
+/* .Card-wrap > p:hover {
+
+} */
+.Card-two:hover {
+  border: silver 1px solid;
+  animation: none;
+  transition: all 350ms;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.Submit:hover {
+  background-color: #008e0b;
+  box-shadow: none;
+  color: white;
+  transition: all 350ms;
+  /* border: #ecf6fc 2px solid; */
+}
+.Sign-in:hover {
+  background-color: #008e0b;
+  box-shadow: none;
+  color: white;
+  transition: all 350ms;
+  /* border: #ecf6fc 2px solid; */
+}

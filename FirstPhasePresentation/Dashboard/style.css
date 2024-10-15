@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+body {
+  background-color: #f1f6fd;
+}
+
+/* HEADER */
+header {
+  width: 100%;
+  height: 25vh;
+  background-color: black;
+  position: relative;
+}
+.Top-head {
+  height: 70px;
+  width: 100%;
+  border-bottom: 1px silver solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  position: fixed;
+  p {
+    font-weight: bold;
+  }
+}
+.Bottom-head {
+  padding-top: 60px;
+  height: 60%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* PROFILE */
+.Profile {
+  height: 100%;
+  width: 8%;
+  display: flex;
+  align-items: center;
+  /* background-color: beige; */
+  justify-content: space-between;
+  .p {
+    text-align: center;
+  }
+}
+
+.Profile img {
+  width: 35px;
+  height: 35px;
+}
+
+/* BOTTOM HEAD */
+.Bottom-head-wrap {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} */
+
+.Icons {
+  width: 15px;
+}
+/* .Spe-Icons {
+  width: 15px;
+} */
+
+/* TOP WRAPPER */
+.Top-head-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  height: 100%;
+}
+
+/* HERO */
+.Hero {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+/* HERO WRAPPER */
+.Hero-wrapper {
+  width: 95%;
+  /* height: 50vh; */
+  background-color: black;
+}
+
+.Hero-wrapper > p {
+  font-size: 20px;
+  padding-top: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+/* CARD */
+.Card-holder {
+  width: 100%;
+  height: 30vh;
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.Card {
+  width: 32%;
+  height: 100%;
+  /* background-color: white; */
+  display: flex;
+  justify-content: center;
+  border: silver solid 2px;
+  border: rgba(128, 128, 128, 0.767) solid 2px;
+  border-radius: 5px;
+  /* box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px; */
+    cursor: pointer;
+}
+.Card-wrap > img {
+  width: 40px;
+  padding-top: 30px;
+  
+}
+
+.Card-wrap > h1 {
+  padding-top: 10px;
+  font-size: 35px;
+  font-style: normal;
+  color: white;
+}
+
+.Card-wrap > p {
+  padding-top: 10px;
+  color: white;
+}
+
+.Card-holder-wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.Card-wrap {
+  width: 95%;
+  height: 100%;
+}
+
+/* GRAPH */
+.Sec-card-holder {
+  margin-top: 20px;
+  margin-bottom: 100px;
+  width: 100%;
+  height: 50vh;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.Graph {
+  width: 66%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  border: rgba(128, 128, 128, 0.767) solid 2px;
+  border-radius: 5px;
+  /* box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px; */
+    cursor: pointer;
+}
+.Graph > img {
+  width: 98%;
+}
+.Sec-Card {
+  width: 32%;
+  height: 80%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: rgba(128, 128, 128, 0.767) solid 2px;
+  border-radius: 5px;
+  /* box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px; */
+    cursor: pointer;
+}
+
+.Sec-Card-wrap {
+  width: 95%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+}
+.Card:hover {
+  border: silver 2px solid;
+  transition: all 300ms;
+
+}
+.Sec-Card:hover {
+  
+  border: silver 2px solid;
+  transition: all 300ms;
+}
+.Graph:hover {
+  border: silver 2px solid;
+  transition: all 300ms;
+}
+a:hover{
+  color: white;
+  transition: all 300ms;
+}
